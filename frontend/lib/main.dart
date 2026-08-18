@@ -24,7 +24,7 @@ class FlapPlanApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => AppState(),
       child: MaterialApp(
-        title: 'FlapPlanAI',
+        title: 'Flap Plan AI',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light(),
         home: const AuthGate(),
