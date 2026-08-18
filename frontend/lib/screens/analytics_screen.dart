@@ -164,16 +164,20 @@ class AnalyticsScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    Wrap(
+                      alignment: WrapAlignment.spaceBetween,
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      spacing: 8,
+                      runSpacing: 4,
                       children: [
                         const Row(
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(Icons.medical_services_outlined,
                                 size: 18, color: AppColors.brand600),
                             SizedBox(width: 8),
                             Text(
-                              'Surgical Procedure Efficacy & Outcome Breakdown',
+                              'Surgical Procedure Efficacy',
                               style: TextStyle(
                                 fontSize: 14,
                                 fontWeight: FontWeight.bold,

@@ -656,10 +656,14 @@ class _CaseHistoryCard extends StatelessWidget {
             const Divider(height: 24),
 
             // Footer with Utility & Action Buttons
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            Wrap(
+              alignment: WrapAlignment.spaceBetween,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              spacing: 12,
+              runSpacing: 10,
               children: [
                 Row(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     const Text('Utility Score: ',
                         style: TextStyle(fontSize: 12, color: AppColors.gray500)),
@@ -674,22 +678,33 @@ class _CaseHistoryCard extends StatelessWidget {
                   ],
                 ),
                 Wrap(
-                  spacing: 8,
+                  spacing: 6,
+                  runSpacing: 6,
+                  crossAxisAlignment: WrapCrossAlignment.center,
                   children: [
                     OutlinedButton.icon(
                       onPressed: onDownload,
-                      icon: const Icon(Icons.picture_as_pdf_outlined, size: 15),
-                      label: const Text('Download PDF', style: TextStyle(fontSize: 12)),
+                      icon: const Icon(Icons.picture_as_pdf_outlined, size: 14),
+                      label: const Text('Download PDF', style: TextStyle(fontSize: 11.5)),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                      ),
                     ),
                     OutlinedButton.icon(
                       onPressed: onCompare,
-                      icon: const Icon(Icons.compare_arrows, size: 15),
-                      label: const Text('Compare', style: TextStyle(fontSize: 12)),
+                      icon: const Icon(Icons.compare_arrows, size: 14),
+                      label: const Text('Compare', style: TextStyle(fontSize: 11.5)),
+                      style: OutlinedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                      ),
                     ),
                     ElevatedButton.icon(
                       onPressed: onView,
-                      icon: const Icon(Icons.arrow_forward, size: 15),
-                      label: const Text('View Case', style: TextStyle(fontSize: 12)),
+                      icon: const Icon(Icons.arrow_forward, size: 14),
+                      label: const Text('View Case', style: TextStyle(fontSize: 11.5)),
+                      style: ElevatedButton.styleFrom(
+                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                      ),
                     ),
                     IconButton(
                       icon: const Icon(Icons.delete_outline, size: 18, color: AppColors.gray400),
