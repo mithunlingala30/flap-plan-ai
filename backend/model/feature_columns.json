@@ -1,0 +1,11 @@
+[
+  "Age",
+  "Probing_Depth_mm",
+  "Clinical_Attachment_Loss_mm",
+  "Gingival_Index",
+  "Plaque_Index",
+  "Sex",
+  "Diabetes_Status",
+  "Bleeding_On_Probing",
+  "Surgical_Procedure"
+]

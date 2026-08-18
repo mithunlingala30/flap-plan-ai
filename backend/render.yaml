@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: periodontal-backend
+    env: python
+    pythonVersion: 3.9.10
+    buildCommand: pip install -r requirements.txt && python model/train.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.10

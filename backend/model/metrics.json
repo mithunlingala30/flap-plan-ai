@@ -1,0 +1,85 @@
+{
+  "accuracy": 0.3142857142857143,
+  "classification_report": {
+    "Excellent": {
+      "precision": 0.2,
+      "recall": 0.15384615384615385,
+      "f1-score": 0.17391304347826086,
+      "support": 13.0
+    },
+    "Fair": {
+      "precision": 0.1875,
+      "recall": 0.2,
+      "f1-score": 0.1935483870967742,
+      "support": 15.0
+    },
+    "Good": {
+      "precision": 0.37037037037037035,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.39215686274509803,
+      "support": 24.0
+    },
+    "Poor": {
+      "precision": 0.4117647058823529,
+      "recall": 0.3888888888888889,
+      "f1-score": 0.4,
+      "support": 18.0
+    },
+    "accuracy": 0.3142857142857143,
+    "macro avg": {
+      "precision": 0.2924087690631808,
+      "recall": 0.2898504273504274,
+      "f1-score": 0.2899045733300333,
+      "support": 70.0
+    },
+    "weighted avg": {
+      "precision": 0.31018790849673206,
+      "recall": 0.3142857142857143,
+      "f1-score": 0.3110837153935908,
+      "support": 70.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2,
+      3,
+      7,
+      1
+    ],
+    [
+      3,
+      3,
+      7,
+      2
+    ],
+    [
+      2,
+      5,
+      10,
+      7
+    ],
+    [
+      3,
+      5,
+      3,
+      7
+    ]
+  ],
+  "classes": [
+    "Excellent",
+    "Fair",
+    "Good",
+    "Poor"
+  ],
+  "feature_importances": {
+    "Diabetes_Status": 0.1318078637123108,
+    "Clinical_Attachment_Loss_mm": 0.11617723852396011,
+    "Probing_Depth_mm": 0.11415368318557739,
+    "Plaque_Index": 0.11394859105348587,
+    "Gingival_Index": 0.112799733877182,
+    "Age": 0.11010002344846725,
+    "Surgical_Procedure": 0.10543065518140793,
+    "Bleeding_On_Probing": 0.10536232590675354,
+    "Sex": 0.09021992981433868
+  }
+}

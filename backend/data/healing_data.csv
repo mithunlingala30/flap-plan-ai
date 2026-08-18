@@ -1,0 +1,351 @@
+Age,Sex,Diabetes_Status,Probing_Depth_mm,Clinical_Attachment_Loss_mm,Gingival_Index,Plaque_Index,Bleeding_On_Probing,Surgical_Procedure,Healing_Outcome
+63,Female,No,4,4.7,2.44,2.97,No,Open Debridement,Good
+53,Male,Yes,3.9,5.3,2.23,1.88,No,Open Debridement,Poor
+39,Female,No,7.5,5.4,2.64,1.59,No,Flap Surgery,Good
+67,Male,No,4.7,6.5,0.83,2.51,No,Laser Surgery,Fair
+32,Female,No,4.4,3.4,0.58,0.86,No,Open Debridement,Fair
+45,Male,Yes,8.3,4,2.64,1.29,No,GTR,Excellent
+63,Female,No,6.7,2.7,1.97,0.8,No,Flap Surgery,Good
+43,Male,Yes,4.8,5.5,0.93,2.37,No,GTR,Poor
+47,Female,No,5.8,4.1,2.23,1.72,Yes,GTR,Good
+35,Male,No,7.8,4.7,2.45,1.98,No,Laser Surgery,Good
+35,Female,Yes,6.3,3.8,1.84,0.76,Yes,GTR,Good
+48,Female,No,7,4.1,2.06,0.66,No,Laser Surgery,Poor
+60,Female,No,6.5,5.8,1.13,1.47,No,Open Debridement,Excellent
+64,Male,No,6.6,5.3,1.62,2.21,Yes,Flap Surgery,Fair
+48,Female,No,5.5,4.4,1.57,1.58,No,GTR,Poor
+27,Male,No,5.5,5.3,2.54,0.1,Yes,Flap Surgery,Poor
+46,Female,No,5.8,5.4,2.52,2.61,Yes,GTR,Poor
+26,Male,No,6.4,4.1,2.5,0.19,Yes,Flap Surgery,Excellent
+48,Female,No,5.2,2.9,0.03,2.87,No,GTR,Poor
+68,Male,No,5.6,3.5,2.25,0.08,No,GTR,Poor
+54,Male,No,5.1,3,2.28,2.08,No,GTR,Excellent
+62,Female,No,5.6,5.8,2.04,0.25,Yes,GTR,Fair
+26,Male,No,4,6,2.27,2.73,Yes,GTR,Poor
+45,Male,No,8.6,6.2,2.53,1.39,No,GTR,Poor
+57,Female,No,4.6,2.3,1.41,0.41,No,GTR,Poor
+36,Male,No,5.1,5.7,1.51,1.02,No,GTR,Poor
+46,Male,No,4.5,6.9,0.37,0.49,No,GTR,Good
+68,Male,No,6.2,5.7,1.16,0.51,No,Flap Surgery,Poor
+49,Female,No,5.3,2.1,1.93,2.84,Yes,Laser Surgery,Poor
+73,Male,No,4.3,6.4,2.34,1.34,Yes,GTR,Good
+51,Female,No,6.3,4.5,0.65,2.37,Yes,Laser Surgery,Good
+66,Male,Yes,6.4,4.2,0.41,1.92,No,GTR,Fair
+52,Male,No,5.4,5,1.99,2.03,Yes,GTR,Good
+40,Male,No,4.7,3.3,0.01,0.4,Yes,Flap Surgery,Fair
+39,Female,No,8.1,4.5,0.54,0.7,Yes,Open Debridement,Fair
+71,Male,No,5.9,6.3,0.09,2.36,Yes,Open Debridement,Good
+68,Male,Yes,4,5.2,0.5,2.91,Yes,Flap Surgery,Fair
+27,Female,No,7.2,4.6,0.54,0.79,No,Laser Surgery,Excellent
+61,Male,Yes,4.5,4.6,1.16,0.81,Yes,Open Debridement,Poor
+31,Female,No,8.8,3.2,1.21,1.42,No,Flap Surgery,Good
+45,Female,Yes,5.6,4.3,2.62,2.95,No,Flap Surgery,Poor
+33,Male,Yes,6.7,2.7,1.53,0.81,No,Open Debridement,Good
+63,Female,No,3,5.6,2.17,1.22,No,Laser Surgery,Good
+42,Male,No,4,2.1,0.31,2.67,No,Flap Surgery,Excellent
+28,Female,No,7.1,5.4,0.68,0.01,Yes,GTR,Poor
+49,Female,No,5.9,5.6,2.11,0.12,Yes,Laser Surgery,Good
+38,Male,No,8,6,0.16,1.81,No,Laser Surgery,Good
+74,Female,Yes,6.1,4.6,1.46,2.72,No,Open Debridement,Good
+33,Female,No,5.7,5.5,1.8,0.72,No,Open Debridement,Good
+50,Female,No,7.6,4.3,1.81,1.41,Yes,GTR,Good
+26,Female,No,6.7,3.2,0.07,1.35,No,Flap Surgery,Fair
+44,Female,No,5.3,6.2,0.97,1.42,Yes,Open Debridement,Fair
+52,Male,No,4.2,4.4,1.91,1.87,No,Open Debridement,Fair
+71,Female,No,2.7,2.9,0.45,1.41,Yes,Laser Surgery,Poor
+31,Male,No,5,4,2.09,1.34,No,Open Debridement,Excellent
+68,Female,No,4.1,4,2.24,1.42,Yes,Open Debridement,Good
+32,Male,No,8.6,5,2.95,1.77,No,Open Debridement,Excellent
+71,Male,No,4.7,7.1,0.63,1.61,Yes,Open Debridement,Poor
+59,Female,No,4.7,5.1,2.48,2.56,Yes,Laser Surgery,Excellent
+38,Female,Yes,3.7,4.7,1.56,0.15,Yes,GTR,Excellent
+41,Female,No,5.2,7.2,1.12,2.5,Yes,GTR,Good
+60,Male,No,4.7,5.6,0.37,2.53,Yes,Flap Surgery,Good
+74,Female,No,7.6,4.8,2.21,0.85,Yes,Open Debridement,Fair
+64,Male,No,5.7,4,0.71,1.39,Yes,Laser Surgery,Excellent
+28,Male,Yes,5.5,4.8,1.11,1.32,No,Flap Surgery,Good
+26,Male,No,5.3,4.4,0.19,0.66,No,Flap Surgery,Poor
+30,Female,No,6.4,4.6,2.4,1.19,No,GTR,Fair
+66,Female,No,5,5.9,2.3,0.13,No,Laser Surgery,Excellent
+28,Male,No,6.3,3.9,2.2,0.83,No,Laser Surgery,Excellent
+53,Male,No,7.4,5.1,0.9,2.45,Yes,Laser Surgery,Excellent
+42,Female,No,6.1,5.5,0.52,0.85,Yes,GTR,Good
+50,Male,No,5.2,3.8,1.91,2.45,Yes,GTR,Poor
+68,Female,No,4.4,3.6,1.49,1.59,Yes,GTR,Poor
+58,Male,No,5.2,4.3,0.53,2.64,Yes,GTR,Poor
+34,Female,No,6.2,4,2.06,1.72,No,GTR,Poor
+60,Male,Yes,3.7,5.8,2.97,0.09,No,Open Debridement,Fair
+38,Female,Yes,6.5,3.4,2.24,2.03,No,Open Debridement,Poor
+55,Male,Yes,5.7,4.6,2.22,0.13,No,Laser Surgery,Fair
+72,Female,Yes,5.3,7.3,2.85,1.35,Yes,Flap Surgery,Excellent
+39,Female,No,4.7,5,0.61,2.79,Yes,Laser Surgery,Fair
+32,Male,No,4.9,5.1,1.7,0.5,Yes,Flap Surgery,Excellent
+38,Male,No,6.2,5.8,2.94,1.17,No,GTR,Good
+47,Female,Yes,5.3,4,0.5,2.19,Yes,Flap Surgery,Poor
+64,Male,No,4.9,3.3,2.1,2.65,No,Laser Surgery,Fair
+45,Female,No,6.1,4.7,1.76,2.01,Yes,Laser Surgery,Poor
+40,Male,No,6.1,4.8,1.76,0.77,Yes,Flap Surgery,Fair
+69,Female,No,4,2.7,2.09,2.02,No,Open Debridement,Good
+42,Female,No,6.2,4.9,2.79,0.89,Yes,GTR,Poor
+71,Female,No,8.5,5.7,2.35,2.16,Yes,GTR,Poor
+48,Female,No,6.1,3.5,0.17,2.86,No,Laser Surgery,Fair
+50,Female,No,3.5,5,2.56,2.16,Yes,Open Debridement,Excellent
+49,Female,No,5.7,5.5,0.68,2.59,No,Flap Surgery,Good
+69,Male,Yes,3.3,5.1,1.13,0.01,Yes,GTR,Good
+65,Male,No,9.3,5.2,1.39,2.15,Yes,Open Debridement,Poor
+53,Male,No,8.2,4.2,1.44,2.49,Yes,GTR,Good
+39,Female,No,4.7,3.3,1.31,0.12,Yes,Open Debridement,Good
+69,Female,No,2.8,4,2.81,2.61,Yes,Open Debridement,Good
+25,Female,No,4.4,3.9,2.12,0.77,Yes,Laser Surgery,Excellent
+49,Female,Yes,5.3,4.4,1.89,2,Yes,GTR,Fair
+31,Male,No,3.4,5.7,0.15,2.4,Yes,Flap Surgery,Excellent
+33,Male,No,5.4,3.1,2.71,1.99,No,Laser Surgery,Excellent
+48,Female,No,5.3,4.7,2.73,0.28,No,Laser Surgery,Poor
+25,Male,No,5.7,3.3,2.34,1.79,Yes,Flap Surgery,Fair
+68,Male,No,5.8,3.7,0.02,1.65,Yes,Laser Surgery,Excellent
+32,Female,No,4.3,5.1,0.17,2.7,No,Open Debridement,Poor
+48,Male,No,4.5,3.2,0.68,1.21,Yes,Open Debridement,Good
+35,Female,No,5.6,5.3,0.39,0.96,Yes,GTR,Excellent
+41,Male,No,4.7,3,1.2,2.25,No,GTR,Good
+32,Female,No,6.6,5.2,2.77,1.24,Yes,Flap Surgery,Poor
+59,Female,No,5.5,2.8,1.42,1.94,Yes,GTR,Good
+59,Female,No,7.7,3.8,0.04,1.94,No,Open Debridement,Poor
+57,Female,No,6.5,6.6,0.85,2.66,Yes,Flap Surgery,Good
+29,Male,No,6.8,6.4,0.13,1.8,Yes,Flap Surgery,Poor
+66,Female,No,5.7,4,0.11,1.51,No,GTR,Good
+63,Female,No,5.7,4.9,0.83,0.42,Yes,Open Debridement,Good
+65,Female,Yes,7.6,5.8,0.83,0.35,No,Flap Surgery,Good
+52,Male,No,5,5.2,2.36,0.46,Yes,Open Debridement,Good
+31,Female,No,6.2,4.2,2.92,0.52,Yes,Open Debridement,Good
+33,Male,No,5.2,3.7,1.11,1.91,No,Open Debridement,Good
+32,Female,No,5.2,5.5,1.29,2.22,No,GTR,Poor
+36,Male,No,4.1,5.7,2.53,1.59,Yes,Laser Surgery,Good
+58,Male,No,4.6,6.4,0.8,2.49,No,Laser Surgery,Poor
+57,Female,Yes,4.4,2.6,0.47,2.97,No,Flap Surgery,Excellent
+72,Male,No,6.2,3.1,2.56,2.46,Yes,Open Debridement,Poor
+47,Female,No,6.7,5.8,0.14,2.08,Yes,GTR,Fair
+48,Female,No,5.4,2.8,1.86,1.6,Yes,Open Debridement,Good
+61,Female,No,5.8,5.9,1.69,1.35,No,Open Debridement,Fair
+59,Male,No,5.3,4.3,1.04,0.25,No,GTR,Poor
+68,Male,No,4.5,3.9,0.95,1.2,No,Laser Surgery,Good
+64,Female,No,6.5,4.7,2.32,2.73,No,Open Debridement,Good
+46,Female,No,6.3,3,0.26,2.42,Yes,Open Debridement,Good
+51,Male,Yes,3.2,5.4,0.71,0.65,No,Laser Surgery,Fair
+59,Female,No,5.2,6.4,2.2,1.4,Yes,GTR,Good
+25,Female,No,4.4,5.5,1.64,2.45,No,Flap Surgery,Fair
+59,Female,No,5,4.2,0.38,0.2,Yes,Laser Surgery,Good
+61,Male,No,4.7,2.8,2.65,1.16,Yes,Flap Surgery,Good
+71,Male,Yes,5.4,2.9,1.18,2.56,Yes,Flap Surgery,Good
+38,Male,No,5.1,3,2.48,1.21,No,Laser Surgery,Poor
+27,Female,No,5.1,4.5,2.36,0.23,Yes,Open Debridement,Poor
+25,Female,No,6.8,4.6,1.87,1.63,Yes,Flap Surgery,Poor
+29,Female,No,6.2,5.5,1.48,2.59,No,Flap Surgery,Poor
+50,Male,No,4.7,2.5,2.94,1.77,Yes,GTR,Fair
+38,Female,No,4.8,5.9,0.43,0.68,No,Open Debridement,Good
+63,Female,No,6.1,5.3,2.18,1.15,No,Flap Surgery,Poor
+51,Female,No,6.1,4.1,0.57,1.35,Yes,GTR,Excellent
+33,Female,No,4.8,3.2,1.01,1.74,Yes,Open Debridement,Poor
+39,Male,Yes,5.2,5.9,0.93,2.28,No,Laser Surgery,Good
+39,Male,No,7.7,4.2,2.84,0.3,Yes,Laser Surgery,Good
+50,Female,No,4.8,4.5,2.9,2.67,No,GTR,Fair
+66,Male,No,7.8,4.9,0.55,0.04,No,Laser Surgery,Poor
+37,Male,No,6.8,3.5,0.07,1.11,No,Flap Surgery,Good
+56,Female,No,7.6,4.2,2.16,0.08,Yes,Open Debridement,Fair
+63,Female,No,4.7,5.5,1.25,1.18,No,Flap Surgery,Excellent
+73,Male,No,5.3,5.3,0.27,1.58,Yes,Flap Surgery,Good
+56,Female,No,5,5.4,2.05,1.54,Yes,Laser Surgery,Excellent
+28,Male,No,6.9,3.2,1.64,0.5,Yes,Flap Surgery,Poor
+54,Female,No,4.8,4.2,2.94,1.94,Yes,Laser Surgery,Good
+61,Male,No,6.4,4.1,0.68,0.13,No,Open Debridement,Good
+47,Female,No,6.3,5,1.21,2.29,Yes,Open Debridement,Good
+63,Male,Yes,5.4,4.9,1.63,2.84,No,Flap Surgery,Poor
+69,Male,Yes,7.1,4.7,2.38,1.02,No,GTR,Good
+39,Male,No,5.6,7.2,1.65,1.55,Yes,Laser Surgery,Fair
+67,Female,No,6.5,4.2,1.84,1.14,No,Laser Surgery,Good
+53,Male,No,4.9,4.1,0.68,0.02,No,Flap Surgery,Fair
+60,Male,Yes,4.6,3.2,2.54,1.16,Yes,Laser Surgery,Excellent
+37,Female,No,6.4,2.8,1.29,2.38,No,Laser Surgery,Poor
+56,Female,No,6,3.2,0.42,1.79,No,GTR,Excellent
+31,Male,Yes,5.8,3.7,1.99,0.3,No,GTR,Excellent
+46,Male,No,5.1,5.9,0.65,2.54,No,Flap Surgery,Excellent
+52,Female,No,7.4,4.5,0.29,1.59,Yes,GTR,Good
+26,Female,No,4.2,4.7,2.59,2.53,No,Flap Surgery,Fair
+66,Female,Yes,4.1,4.4,1.38,1.74,No,Open Debridement,Excellent
+69,Female,Yes,6.6,4.9,2.25,1.68,No,Flap Surgery,Poor
+30,Female,Yes,6.5,6,0.87,0.32,No,Open Debridement,Good
+52,Male,No,5.9,2.3,2.36,0.5,Yes,Flap Surgery,Good
+52,Female,No,5.2,5.8,0.34,2.92,No,Laser Surgery,Good
+68,Male,Yes,6.1,1.7,1.07,0.69,Yes,GTR,Poor
+68,Male,No,7.6,4.5,2.93,2.93,No,Open Debridement,Good
+44,Male,Yes,8.5,6.9,2.38,1.6,Yes,Flap Surgery,Excellent
+54,Female,Yes,3.5,5.2,1.49,0.41,Yes,GTR,Poor
+35,Male,No,5,4.9,1.02,0.3,Yes,Flap Surgery,Excellent
+52,Male,No,4.9,6.7,2.62,0.63,Yes,GTR,Poor
+49,Female,No,7.5,3.7,1.63,2.78,Yes,GTR,Fair
+63,Male,No,2.5,5,2.28,1.24,No,Flap Surgery,Poor
+57,Male,No,6.1,5.1,2.26,1.19,No,Open Debridement,Poor
+25,Female,No,5.2,3.9,0.05,0.94,No,Open Debridement,Excellent
+51,Male,No,7.5,4,0.38,0.44,Yes,Laser Surgery,Fair
+37,Male,No,7.3,3.9,1.98,1.46,No,GTR,Fair
+65,Male,No,5.9,4.6,0.48,0.39,Yes,Laser Surgery,Poor
+27,Female,No,3.6,5.1,0.77,2.51,Yes,Laser Surgery,Good
+63,Female,Yes,4.8,4.6,2.84,1.11,No,Flap Surgery,Good
+30,Female,No,4.9,5.3,1.68,1.12,No,Flap Surgery,Fair
+32,Male,No,3.9,2.3,2.25,1.42,Yes,Flap Surgery,Fair
+51,Male,No,6.9,4.3,1.67,1.33,Yes,GTR,Excellent
+33,Female,No,3.8,3.4,1.66,2.98,No,Flap Surgery,Fair
+61,Male,No,7.9,4.8,0.28,1.64,No,Flap Surgery,Fair
+57,Male,No,7.9,4.8,1.03,0.26,No,GTR,Poor
+66,Female,No,5,4.4,0.85,1.82,No,GTR,Good
+68,Female,Yes,5.9,5.1,1.17,0.45,Yes,Open Debridement,Fair
+48,Male,No,5.4,5.6,2.4,0.09,No,Flap Surgery,Good
+39,Male,No,6.6,4.4,1.12,2.91,No,Flap Surgery,Poor
+56,Male,No,7,3.3,1.36,2.32,No,Flap Surgery,Excellent
+56,Female,Yes,5.8,2.8,1.19,2.94,Yes,Open Debridement,Poor
+48,Female,Yes,6.1,4.5,0.28,1.43,Yes,Flap Surgery,Good
+65,Female,No,4.8,4.8,1.32,1.6,Yes,Open Debridement,Fair
+73,Female,No,6,3.4,0.59,0.51,Yes,Laser Surgery,Poor
+73,Male,No,5.7,5.3,0.56,0.74,No,Open Debridement,Excellent
+36,Female,No,4.4,4,0.28,2.52,Yes,Laser Surgery,Fair
+63,Female,No,5.5,2.7,1.07,1.07,No,Flap Surgery,Excellent
+26,Female,No,5,5.9,2.27,2.48,No,Laser Surgery,Excellent
+27,Female,No,4.8,5.8,0.83,2.13,No,Open Debridement,Excellent
+73,Female,No,4.1,2.3,0.94,0.53,No,GTR,Poor
+61,Male,No,5.6,3.9,1.93,1.52,Yes,Laser Surgery,Good
+73,Male,No,4.6,3.8,0.59,2.03,Yes,Laser Surgery,Fair
+41,Female,No,4.9,6.3,2.69,0.71,Yes,Flap Surgery,Excellent
+73,Male,Yes,6.8,4.4,1.56,2.49,No,Open Debridement,Good
+26,Female,No,6.3,2.9,1.34,1.63,No,Laser Surgery,Excellent
+26,Female,No,4.3,5.5,1.67,0.5,No,Laser Surgery,Fair
+52,Male,No,5.9,3.1,0.5,1.75,No,Laser Surgery,Good
+47,Male,No,5.7,4.2,1.84,3,No,Laser Surgery,Poor
+61,Female,No,7.5,3.7,1.09,0.45,Yes,GTR,Good
+56,Female,No,7.2,3.9,2.69,2.45,No,Open Debridement,Fair
+57,Female,No,3.7,5.5,0.51,0.62,Yes,Flap Surgery,Good
+25,Male,No,6.5,6.2,1.52,2.35,No,Flap Surgery,Good
+43,Female,No,7,3.1,1.79,2.2,No,GTR,Good
+26,Female,No,6.2,5.2,0.1,0.9,Yes,Open Debridement,Poor
+68,Female,No,5.1,3.7,1.09,0.98,Yes,Laser Surgery,Good
+50,Male,No,8.4,3.7,2.2,2.38,No,GTR,Fair
+56,Female,No,6.3,5,2.46,1.38,No,Open Debridement,Fair
+30,Female,No,7.9,3.4,0.94,2.19,No,Laser Surgery,Poor
+56,Male,No,7.1,5,2.4,0.44,No,GTR,Poor
+28,Female,No,6.1,5.3,2.9,2.56,Yes,Open Debridement,Poor
+35,Female,No,4.8,4,2.57,2.13,No,Flap Surgery,Good
+41,Male,No,5.5,6,0.35,2.72,Yes,Flap Surgery,Poor
+62,Female,Yes,5.2,3.1,2.22,0.4,No,Open Debridement,Fair
+48,Male,No,4,6,0.96,1.78,Yes,Flap Surgery,Excellent
+29,Male,Yes,6.3,2.4,2.97,1.8,Yes,Open Debridement,Poor
+58,Female,No,7.4,7.5,1.46,1.06,No,Laser Surgery,Good
+30,Female,No,5.1,4.1,0.37,1.38,Yes,Open Debridement,Good
+46,Female,No,8.1,3.2,2.18,0.11,No,Laser Surgery,Excellent
+35,Female,No,3.6,4.2,0.97,2.24,Yes,GTR,Good
+72,Male,No,6.8,3.3,2.99,1.65,No,Open Debridement,Good
+40,Female,No,7.5,4.9,2.94,0.17,Yes,GTR,Excellent
+57,Male,No,5.3,6,1.97,2.04,No,Flap Surgery,Fair
+33,Female,No,5.3,3.4,0.39,1.4,No,Laser Surgery,Excellent
+30,Female,No,6.8,5.1,2.06,0.1,Yes,Open Debridement,Poor
+40,Female,No,6.1,2.8,0.28,2.91,Yes,GTR,Excellent
+53,Male,No,3.1,5.6,0.09,2.85,Yes,Laser Surgery,Fair
+27,Female,Yes,4.5,5,2.47,1.54,Yes,Laser Surgery,Good
+44,Female,No,5.5,5.7,0.63,0.28,No,Flap Surgery,Poor
+60,Female,No,3.9,4.4,1.14,2.26,Yes,Flap Surgery,Good
+43,Female,No,4.9,4,2.92,1.48,No,Laser Surgery,Poor
+50,Male,No,3.9,5.4,1.01,0.91,Yes,Laser Surgery,Excellent
+27,Female,No,5.1,3.1,0.89,1.47,No,Open Debridement,Excellent
+43,Male,No,5.1,2.6,2.75,1.57,No,Laser Surgery,Poor
+44,Male,No,5.9,4.5,0.33,1.69,No,Open Debridement,Excellent
+56,Male,No,5.4,4.1,2.28,1.32,No,Laser Surgery,Good
+31,Male,No,6.1,5.1,2.96,1.82,Yes,Flap Surgery,Good
+65,Male,No,6,5.7,2.7,2.76,Yes,Open Debridement,Fair
+57,Male,No,6.7,5.1,1.96,1.09,No,GTR,Poor
+64,Female,No,6.5,5.6,0.94,2.18,Yes,Flap Surgery,Poor
+63,Male,No,6.4,4.9,0.76,2.68,Yes,Open Debridement,Fair
+42,Male,Yes,9.2,5,2.46,1.37,No,Open Debridement,Excellent
+64,Male,No,5.9,4.4,2.64,1.33,Yes,GTR,Poor
+25,Female,No,8.6,5,1.58,1.81,Yes,Open Debridement,Excellent
+35,Female,Yes,6,4.7,0.73,1.77,Yes,Laser Surgery,Fair
+52,Male,No,5.4,4.9,0.34,2.42,No,GTR,Good
+49,Female,No,5.1,4.3,0.26,1.43,Yes,Flap Surgery,Good
+74,Male,No,7.3,5.4,2.16,2.99,No,Flap Surgery,Excellent
+47,Male,Yes,7.5,3.7,1.26,0.18,Yes,Laser Surgery,Fair
+55,Female,No,6.2,4.5,2.72,0.01,Yes,Flap Surgery,Fair
+54,Male,No,6.9,5.9,2.22,1.92,Yes,Open Debridement,Fair
+66,Female,No,4,3.5,0.57,0.9,No,Open Debridement,Poor
+59,Female,No,3.6,2.1,1.84,0.72,No,Laser Surgery,Poor
+31,Male,No,7,4.9,1.31,0.94,Yes,Flap Surgery,Fair
+40,Male,No,5.3,4.2,1.73,0.77,No,Flap Surgery,Fair
+50,Female,No,6.4,5.6,2.21,0.09,Yes,Laser Surgery,Good
+72,Male,No,4.6,4.4,2.42,2.91,No,GTR,Fair
+73,Male,Yes,7.5,3.8,2.53,0.66,No,Flap Surgery,Fair
+26,Male,No,3.7,4.4,0.76,2.2,Yes,GTR,Fair
+25,Female,No,3.8,5.7,0.09,2.29,Yes,Flap Surgery,Good
+72,Female,No,7.2,5.1,2.22,2.79,Yes,Flap Surgery,Excellent
+36,Male,No,2.4,1.8,0.32,0.09,Yes,Flap Surgery,Good
+29,Female,No,6,4.7,0.94,2.62,No,Flap Surgery,Good
+61,Female,No,5.4,4.8,0.01,1.58,No,Open Debridement,Poor
+56,Female,No,4.6,4.5,2.05,1.9,No,GTR,Good
+33,Female,No,5.3,3.8,0.5,1.93,Yes,GTR,Fair
+65,Female,Yes,4.5,5.8,1.97,2.46,Yes,Flap Surgery,Fair
+59,Male,No,7.4,5.9,2.98,1,No,Flap Surgery,Good
+43,Male,No,7.7,2.1,0.22,2.2,Yes,GTR,Excellent
+72,Male,No,4.7,3.6,0.23,1.59,No,Open Debridement,Poor
+40,Female,Yes,5.8,4.3,1.02,2.38,No,Laser Surgery,Good
+27,Female,No,3.9,5.5,2.6,2.97,No,Laser Surgery,Good
+44,Male,No,6.8,4.5,0.65,0.6,No,GTR,Poor
+48,Female,No,6.8,3.7,1.08,2.98,No,Flap Surgery,Poor
+57,Male,No,5.1,5.3,0.21,0.27,Yes,Flap Surgery,Fair
+48,Male,No,5.5,4.3,2.29,0.01,Yes,Open Debridement,Poor
+35,Male,No,5.4,4.4,1.22,0.13,Yes,Laser Surgery,Poor
+73,Female,No,3.6,4.5,2.28,1.03,No,Open Debridement,Poor
+32,Female,No,7.4,5.1,2.71,1.9,No,Laser Surgery,Fair
+60,Male,Yes,4.6,4.2,0.7,0.21,No,GTR,Good
+62,Male,No,4.6,5.3,2.42,0.02,No,Laser Surgery,Good
+64,Male,No,5.3,4.4,0.18,2.81,Yes,Open Debridement,Excellent
+44,Male,No,6.7,3.3,2.7,2.47,Yes,Open Debridement,Fair
+59,Female,No,4.8,4.5,1.95,2.43,No,Open Debridement,Good
+72,Female,No,3.2,3.4,2.62,2.65,No,GTR,Excellent
+49,Male,No,4.4,4.5,0,2.1,No,Laser Surgery,Good
+59,Male,No,6,5.4,0.51,0.31,Yes,Laser Surgery,Fair
+49,Female,Yes,8.1,3.3,1.17,1.2,Yes,Open Debridement,Good
+53,Female,No,4,4.9,1.14,2.17,Yes,Laser Surgery,Poor
+42,Male,No,3.9,3.6,0.68,0.84,No,Flap Surgery,Fair
+70,Male,No,3.7,4.7,1.14,2.06,No,Flap Surgery,Good
+42,Male,Yes,3.5,5.4,0.39,0.07,Yes,Flap Surgery,Good
+26,Female,Yes,6.9,2.2,1.24,0.92,No,Laser Surgery,Poor
+59,Female,No,7.3,3.3,2.41,1.65,Yes,GTR,Excellent
+40,Female,No,5.7,4.1,1.44,1.9,No,GTR,Good
+65,Male,No,4.9,4.8,0.05,1.73,Yes,GTR,Fair
+60,Male,No,7.6,4.3,1.26,2.09,No,GTR,Excellent
+57,Female,No,5.7,4.4,0.08,0.02,Yes,Flap Surgery,Fair
+28,Female,No,6.8,6.7,2.9,0.3,Yes,Flap Surgery,Excellent
+57,Male,No,4.9,3.2,0.38,2.61,Yes,Open Debridement,Good
+38,Female,No,5.6,5.7,2.12,2.05,Yes,Laser Surgery,Poor
+45,Female,No,4,4.1,2.92,0.34,Yes,Laser Surgery,Good
+72,Male,No,6.3,5.1,2.48,2.53,Yes,GTR,Good
+44,Female,No,5.7,6.8,2.1,0.73,No,Flap Surgery,Good
+32,Male,No,4.4,5.3,2.52,1.43,No,GTR,Excellent
+31,Male,No,4.4,4.9,2.95,0.44,No,Open Debridement,Good
+27,Male,Yes,7.4,6.3,1.86,2.13,Yes,Laser Surgery,Good
+41,Male,Yes,7.9,5.7,1.68,2,Yes,Laser Surgery,Excellent
+57,Male,No,5.2,3.6,1.88,0.63,No,GTR,Good
+72,Male,Yes,5.6,4.8,1.6,2.59,Yes,Open Debridement,Fair
+36,Male,No,6,2.6,1.91,1.2,Yes,Laser Surgery,Excellent
+46,Female,No,5.7,3.9,1.35,0.88,Yes,Open Debridement,Poor
+46,Male,No,3.5,4.8,0.66,0.46,Yes,Open Debridement,Good
+70,Male,No,6,3.8,0.36,0.8,Yes,GTR,Excellent
+54,Female,No,3,4.8,0.21,0.07,No,Flap Surgery,Good
+62,Female,No,4.6,4.5,0.79,1.75,No,GTR,Good
+62,Female,No,6.1,5.1,0.14,2.53,No,Flap Surgery,Good
+69,Male,No,6.2,4,1.7,1.65,No,Open Debridement,Fair
+32,Female,Yes,4.5,3.5,0.85,0.66,No,Flap Surgery,Excellent
+51,Male,No,4.9,6.1,2.47,0.1,Yes,Open Debridement,Poor
+51,Male,No,4.8,4,0.22,0.64,Yes,Laser Surgery,Poor
+58,Male,No,5.4,5.2,0.68,1.25,Yes,Laser Surgery,Poor
+45,Male,Yes,5.5,6.1,2.19,2.28,Yes,Laser Surgery,Good
+54,Female,No,6.3,4.7,1.8,0.56,No,GTR,Good
+57,Female,No,4.9,3.6,0.19,2.16,No,GTR,Excellent
+52,Male,No,5.9,4.3,2.63,2.6,No,Open Debridement,Fair
+71,Male,Yes,6.1,5.6,2.63,1.36,Yes,Laser Surgery,Fair
+57,Male,No,5.7,4.7,0.99,2.46,No,GTR,Poor
+29,Female,No,5.2,3.2,1.02,1.66,Yes,Laser Surgery,Fair
