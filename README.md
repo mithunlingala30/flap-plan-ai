@@ -1,4 +1,4 @@
-﻿# 🦷 FlapPlan AI
+# 🦷 FlapPlan AI
 ### Periodontal Surgery Decision Support — Powered by XGBoost & Flutter
 
 > *Know the outcome before you make the incision.*
@@ -37,21 +37,21 @@ A clinician enters nine standard clinical parameters, and FlapPlan returns:
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│                   Flutter Frontend                    │
+│                   Flutter Frontend                   │
 │  Case Entry → Prediction Request → Result Display    │
-│                     (Provider)                        │
+│                     (Provider)                       │
 └────────────────────┬─────────────────────────────────┘
-                     │ HTTP  (45 s timeout + fallback)
+                     │ HTTP (45s timeout + fallback)
                      ▼
 ┌──────────────────────────────────────────────────────┐
-│               FastAPI Backend  (Render)               │
+│               FastAPI Backend (Render)               │
 │  Pydantic Validation → Feature Encoding → XGBoost    │
-│              → Probabilities + Predicted Class        │
+│              → Probabilities + Predicted Class       │
 └──────────────────────────────────────────────────────┘
-                     │  (offline fallback)
+                     │ (offline fallback)
                      ▼
 ┌──────────────────────────────────────────────────────┐
-│          LocalPredictionEngine  (on-device)           │
+│          LocalPredictionEngine (on-device)           │
 │   Deterministic heuristic — always available,        │
 │   flagged as "Offline Estimate" in the UI            │
 └──────────────────────────────────────────────────────┘
@@ -218,8 +218,8 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 
 ## 🛠️ Tech Stack
 
-**Frontend:** Flutter · Dart · Provider · `pdf` · `printing` · Firebase Auth
-**Backend:** Python · FastAPI · XGBoost · Pydantic v2 · scikit-learn · Uvicorn
+**Frontend:** Flutter · Dart · Provider · `pdf` · `printing` · Firebase Auth  
+**Backend:** Python · FastAPI · XGBoost · Pydantic v2 · scikit-learn · Uvicorn  
 **Infra:** Render (backend) · Firebase (auth + Firestore)
 
 ---
@@ -227,9 +227,3 @@ uvicorn app.main:app --host 0.0.0.0 --port $PORT
 <p align="center">
   Made with ❤️ for better periodontal outcomes.
 </p>
-#   f l a p - p l a n - a i  
- #   f l a p - p l a n - a i  
- #   f l a p - p l a n - a i  
- #   f l a p - p l a n - a i  
- #   f l a p - p l a n - a i  
- 

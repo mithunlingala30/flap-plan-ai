@@ -34,7 +34,7 @@ class OutcomeHeroBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(24),
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
@@ -55,13 +55,13 @@ class OutcomeHeroBanner extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          // Icon circle
-          Container(
-            width: 64,
-            height: 64,
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final isWide = constraints.maxWidth > 560;
+
+          final iconWidget = Container(
+            width: isWide ? 64 : 48,
+            height: isWide ? 64 : 48,
             alignment: Alignment.center,
             decoration: BoxDecoration(
               color: style.bg,
@@ -75,42 +75,37 @@ class OutcomeHeroBanner extends StatelessWidget {
                 ),
               ],
             ),
-            child: Icon(style.icon, size: 30, color: style.text),
-          ),
-          const SizedBox(width: 20),
+            child: Icon(style.icon, size: isWide ? 30 : 22, color: style.text),
+          );
 
-          // Label
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'PREDICTED HEALING OUTCOME',
-                  style: TextStyle(
-                    fontSize: 10.5,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 1.2,
-                    color: AppColors.gray400,
-                  ),
+          final detailsWidget = Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                'PREDICTED HEALING OUTCOME',
+                style: TextStyle(
+                  fontSize: 10.5,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 1.2,
+                  color: AppColors.gray400,
                 ),
-                const SizedBox(height: 6),
-                OutcomeBadge(outcome: prediction.predictedClass, size: BadgeSize.hero),
-                const SizedBox(height: 5),
-                Text(
-                  _outcomeDescription(prediction.predictedClass),
-                  style: const TextStyle(
-                    fontSize: 12.5,
-                    color: AppColors.gray500,
-                    height: 1.4,
-                  ),
+              ),
+              const SizedBox(height: 6),
+              OutcomeBadge(outcome: prediction.predictedClass, size: isWide ? BadgeSize.hero : BadgeSize.lg),
+              const SizedBox(height: 6),
+              Text(
+                _outcomeDescription(prediction.predictedClass),
+                style: const TextStyle(
+                  fontSize: 12.5,
+                  color: AppColors.gray500,
+                  height: 1.4,
                 ),
-              ],
-            ),
-          ),
+              ),
+            ],
+          );
 
-          // Utility Score block
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+          final utilityWidget = Container(
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(14),
@@ -125,21 +120,22 @@ class OutcomeHeroBanner extends StatelessWidget {
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
                   'UTILITY SCORE',
                   style: TextStyle(
-                    fontSize: 10,
+                    fontSize: 9.5,
                     fontWeight: FontWeight.w700,
                     letterSpacing: 1,
                     color: AppColors.gray400,
                   ),
                 ),
-                const SizedBox(height: 6),
+                const SizedBox(height: 4),
                 Text(
                   prediction.utility.toStringAsFixed(2),
-                  style: const TextStyle(
-                    fontSize: 32,
+                  style: TextStyle(
+                    fontSize: isWide ? 30 : 24,
                     fontWeight: FontWeight.w800,
                     color: AppColors.gray900,
                     letterSpacing: -1,
@@ -150,8 +146,67 @@ class OutcomeHeroBanner extends StatelessWidget {
                 UtilityMiniBar(utility: prediction.utility),
               ],
             ),
-          ),
-        ],
+          );
+
+          if (!isWide) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    iconWidget,
+                    const SizedBox(width: 14),
+                    Expanded(child: detailsWidget),
+                  ],
+                ),
+                const SizedBox(height: 14),
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                  decoration: BoxDecoration(
+                    color: Colors.white.withValues(alpha: 0.7),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(color: AppColors.gray200.withValues(alpha: 0.6)),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Utility Score',
+                            style: TextStyle(
+                              fontSize: 12.5,
+                              fontWeight: FontWeight.w600,
+                              color: AppColors.gray800,
+                            ),
+                          ),
+                          Text(
+                            'Quantified clinical value',
+                            style: TextStyle(fontSize: 10, color: AppColors.gray400),
+                          ),
+                        ],
+                      ),
+                      utilityWidget,
+                    ],
+                  ),
+                ),
+              ],
+            );
+          }
+
+          return Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              iconWidget,
+              const SizedBox(width: 20),
+              Expanded(child: detailsWidget),
+              const SizedBox(width: 20),
+              utilityWidget,
+            ],
+          );
+        },
       ),
     );
   }
