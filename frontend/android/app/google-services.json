@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "483329516369",
+    "firebase_url": "https://flap-plan-587ec-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flap-plan-587ec",
+    "storage_bucket": "flap-plan-587ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483329516369:android:0d609d51c812c519c1e970",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483329516369-v1nukkjjpg446f5g3o004h2nctl17jal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3qIkijA8Uh-5FdcpL_sp4AuUi39ThFuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483329516369-v1nukkjjpg446f5g3o004h2nctl17jal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

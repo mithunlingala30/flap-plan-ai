@@ -152,7 +152,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 physics: const NeverScrollableScrollPhysics(),
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
-                childAspectRatio: cols == 1 ? 2.6 : 1.4,
+                childAspectRatio: cols == 1 ? 2.1 : 1.4,
                 children: items,
               );
             }),

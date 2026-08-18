@@ -158,7 +158,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
                 physics: const NeverScrollableScrollPhysics(),
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
-                childAspectRatio: cols == 1 ? 2.6 : 1.8,
+                childAspectRatio: cols == 1 ? 2.1 : 1.8,
                 children: items,
               );
             }),

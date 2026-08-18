@@ -113,7 +113,7 @@ class AnalyticsScreen extends StatelessWidget {
                 physics: const NeverScrollableScrollPhysics(),
                 crossAxisSpacing: 16,
                 mainAxisSpacing: 16,
-                childAspectRatio: cols == 1 ? 2.6 : 1.4,
+                childAspectRatio: cols == 1 ? 2.1 : 1.4,
                 children: items,
               );
             }),
@@ -412,31 +412,37 @@ class _ProcedureRow extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Row(
-                children: [
-                  Text(
-                    procedure.label,
-                    style: const TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
-                      color: AppColors.gray900,
+              Expanded(
+                child: Wrap(
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  spacing: 8,
+                  runSpacing: 4,
+                  children: [
+                    Text(
+                      procedure.label,
+                      style: const TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.gray900,
+                      ),
                     ),
-                  ),
-                  const SizedBox(width: 8),
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                    decoration: BoxDecoration(
-                      color: AppColors.gray200,
-                      borderRadius: BorderRadius.circular(4),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: AppColors.gray200,
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Text(
+                        '$count case${count == 1 ? '' : 's'}',
+                        style: const TextStyle(fontSize: 11, color: AppColors.gray700),
+                      ),
                     ),
-                    child: Text(
-                      '$count case${count == 1 ? '' : 's'}',
-                      style: const TextStyle(fontSize: 11, color: AppColors.gray700),
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
+              const SizedBox(width: 8),
               Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   const Text('Mean Utility: ',
                       style: TextStyle(fontSize: 12, color: AppColors.gray500)),
@@ -593,23 +599,31 @@ class _CohortPill extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                label,
-                style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: AppColors.gray700),
-              ),
-              Text(
-                '$count cases',
-                style: const TextStyle(fontSize: 9.5, color: AppColors.gray400),
-              ),
-            ],
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: AppColors.gray700),
+                ),
+                Text(
+                  '$count cases',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(fontSize: 9.5, color: AppColors.gray400),
+                ),
+              ],
+            ),
           ),
+          const SizedBox(width: 4),
           Text(
             count == 0 ? '—' : '${(rate * 100).round()}% Good',
             style: TextStyle(
-              fontSize: 12,
+              fontSize: 11.5,
               fontWeight: FontWeight.bold,
               color: isPositive ? AppColors.green700 : AppColors.gray600,
             ),

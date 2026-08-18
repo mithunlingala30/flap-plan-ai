@@ -30,7 +30,7 @@ class StatCard extends StatelessWidget {
     };
 
     return Container(
-      padding: const EdgeInsets.all(18),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
@@ -38,6 +38,7 @@ class StatCard extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -45,6 +46,8 @@ class StatCard extends StatelessWidget {
               Expanded(
                 child: Text(
                   label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     fontSize: 13.5,
                     fontWeight: FontWeight.w500,
@@ -52,6 +55,7 @@ class StatCard extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(width: 8),
               Container(
                 width: 32,
                 height: 32,
@@ -61,18 +65,23 @@ class StatCard extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 6),
           Text(
             value,
             style: const TextStyle(
-              fontSize: 24,
+              fontSize: 22,
               fontWeight: FontWeight.bold,
               color: AppColors.gray900,
             ),
           ),
           if (sub != null) ...[
             const SizedBox(height: 2),
-            Text(sub!, style: const TextStyle(fontSize: 11.5, color: AppColors.gray400)),
+            Text(
+              sub!,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(fontSize: 11.5, color: AppColors.gray400),
+            ),
           ],
         ],
       ),
