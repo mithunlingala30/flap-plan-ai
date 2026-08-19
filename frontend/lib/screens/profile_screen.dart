@@ -137,7 +137,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
               SizedBox(
                 width: double.infinity,
                 child: OutlinedButton.icon(
-                  onPressed: () => context.read<AppState>().signOut(),
+                  onPressed: () {
+                    Navigator.of(context).popUntil((route) => route.isFirst);
+                    context.read<AppState>().signOut();
+                  },
                   icon: const Icon(Icons.logout, size: 17, color: AppColors.red),
                   label: const Text('Sign out', style: TextStyle(color: AppColors.red)),
                 ),

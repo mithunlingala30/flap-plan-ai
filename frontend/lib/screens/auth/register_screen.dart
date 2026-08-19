@@ -43,8 +43,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
             password: _password.text,
             role: UserRole.clinician,
           );
-      // AuthGate handles navigation once the auth state stream fires,
-      // and the profile stream will immediately reflect the saved name.
+      if (mounted) {
+        Navigator.of(context).popUntil((route) => route.isFirst);
+      }
     } on FirebaseAuthException catch (e) {
       setState(() => _error = _friendlyRegisterError(e));
     } catch (e) {
